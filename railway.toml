@@ -1,0 +1,7 @@
+[build]
+build = "dockerfile"
+dockerfilePath = "./kmakai.MVC.Movies/Dockerfile"
+
+[deploy]
+startCommand = "dotnet kmakai.MVC.Movies.dll"
+restartPolicy = "never"
